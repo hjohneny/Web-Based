@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link id="pagestyle" rel="stylesheet" type="text/css" href=".css">
+        <meta charset="utf-8">
+        <script>
+        function swapStyleSheet(sheet){
+        document.getElementById('pagestyle').setAttribute('href', sheet);}
+        </script>
+        <script src="java.js"></script>
+        </head>
+        
+        <body onload='document.form1.text1.focus()'><center>
+            <p><h2 id="hihi">CUSTOMER INFO</h2></p>
+        
+            <form  action="" method="POST" id="form1"> 
+                <table border="1">                
+            <tr>
+                <th><label for="name">FULL NAME :</label></th>
+                <td><input type="text" id="name" name="text1" title="ONLY CHARACTER ALLOWDED" onchange="Validate()" required ></td></tr>
+        <tr>    
+                <th><label for="usrname">MATRIC NUMBER :</label></th>
+                <td><input type="text" id="name2" name="name"  title="ONLY NUMBER ALLOWDED" onchange="Validate2()" required></td></tr>
+        <tr>   
+                <th><label>PASSWORD :</label></th>
+                <td><input name="password" id="password"  type="password" title="Must contain one uppercase and lowercase letter, and at least 6 or more characters" onchange="ValidatePassword()"  required/>
+                </td></tr>
+        <tr>
+                <th><label>CONFIRM PASSWORD:</label></th>
+                        <td><input type="password" name="confirm_password" id="confirm_password" onchange="check()" /> 
+                        <span id='message'></span></td>
+                </tr>
+        <tr>       
+                <th><label class="mail">PHONE NUMBER:</label></th>
+                <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3,}-[0-9]{4}" title="xxx-xxx-xxxx" required></td>
+                
+                </tr>
+        <tr>        
+                <th><label>GENDER :</label></th>
+                <td><input type="radio" name="gender" value="male"  required> Male
+                <input type="radio" name="gender" value="female"  required> Female</td>
+        </tr> 
+        <tr>
+                <th><label >SELECT STATE </label></th>
+                <td><select name="Country" required >
+                        <option value="-1" >[choose yours]</option>
+                        <option value="USA"  >USA</option>
+                        <option value="UK" >UK</option>
+                        <option value="MALAYSIA" >MALAYSIA</option></select></td>
+                        
+                </tr>
+        <table><tr> 
+                <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }" required>
+                        <input type="checkbox" name="checkbox" value="check" id="agree" required /> I have read and agree to the Terms and Conditions and Privacy Policy</form>
+                </tr>               
+                <tr>
+                <th><P class="submit"><input type="submit" name="submit" value="REGISTER" ></P></th>
+                <th><input type="button" onclick="myFunction()" id="myForm" value="Reset form">
+                </tr>        
+              
+                
+                    </form>
+       </tr></table>
+        <a href="Car_Rent_Interface.html"><h4 id="hehe">CLICK HERE TO GO BACK</h4></a> 
+             </table></center>
+    </body>
+</html>
