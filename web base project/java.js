@@ -1,4 +1,4 @@
-
+//Testing
 //validate the passowrd
 function check() {
    if(document.getElementById('password').value == document.getElementById('confirm_password').value) {
