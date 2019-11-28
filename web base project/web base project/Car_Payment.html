@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="Car_Rent_Design.css">
+        <meta charset="utf-8">
+        <script>
+        function swapStyleSheet(sheet){
+        document.getElementById('pagestyle').setAttribute('href', sheet);}
+        </script>
+        <script src="java.js"></script>
+        </head>
+        
+        <body onload='document.form1.text1.focus()'><center>
+            <p><h2 id="hihi">CAR SUPPLIER</h2></p>
+        
+            <form  action="" method="POST" id="form1"> 
+                <table border="0">                
+            <tr>
+                <th><label >CHOOSE PAYMENT METHOD :</label></th>
+                <td><select name="PAYMENT" required >
+                        <option value="-1" >[choose yours]</option>
+                        <option value="VISA"  >VISA</option>
+                        <option value="MASTERCARD" >MASTERCARD</option>
+                        <option value="AMEX" >AMEX</option></select></td></tr>
+        <tr>    
+            <th><label for="name">NAME ON CARD :</label></th>
+            <td><input type="text" id="name" name="text1" title="ONLY CHARACTER ALLOWDED" onchange="Validate()" required ></td></tr>
+               
+        <tr>  
+            <th><label for="name">CARD NUMBER :</label> </th> 
+            <td><input type="number" name="number"   required ></td>
+        <tr>
+            <th><label for="name">EXPIRY DATE (MM/YY) :</label> </th> 
+                <td><input type="number" name="number" placeholder="MONTH" required ></td>
+                <td><input type="number" name="number" placeholder="YEAR" required ></td>    
+                </tr>
+        <tr>     
+                <th><label for="name">SECURTIY NUMBER :</label> </th> 
+                <td><input type="number" name="number" min="100"   required ></td>
+                
+                </tr>
+         
+        <table>      
+                 <tr>
+                    <th><P class="submit"><input type="submit" name="submit" value="REGISTER" ></P></th>
+                    <th><input type="button" onclick="myFunction()" id="myForm" value="RESET"></th>    
+                </tr></table>  
+                
+                    </form>
+       </table>
+       <a href="Car_Rent_Interface.html"><h4 id="hehe">CLICK HERE TO GO BACK</h4></a>
+             </table></center>
+    </body>
+</html>
+
+                

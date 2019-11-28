@@ -1,0 +1,35 @@
+#time2{
+    margin: 10PX;
+    padding: 40px;
+    float: left;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+
+.table1{
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+.table2{
+    border-collapse: collapse;
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav ul {
+    float:right;
+    margin-top: -40px;
+}
+nav li {
+    display : inline-block;
+    padding-right: 10px;
+}
