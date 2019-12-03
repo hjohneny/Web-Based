@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="Car_Rent_Design.css">
+        <script src="java.js"></script>
+        <head>
+                <h1>CAR RENTAL SERVICES</h1>
+        </head>
+
+        <nav>
+                <ul>
+                    <li><a href="Car_Rent_Interface.html">HOME</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="CAR_Rent_login.html">LOG IN</a></li>
+                </ul>
+        </nav>
+
+        <h2 id="login">LOG IN</h2>
+
+        <body>      
+        <form id="form1" action="" method="POST" >
+        <table border="0" id="table">
+
+        <tr>
+                <th><label for="name">USERNAME :</label></th>
+                <td><input type="text" id="name" name="username" required ></td></tr>
+       
+        <tr>   
+                <th><label>PASSWORD :</label></th>
+                <td><input name="password" id="password"  type="password" onchange="ValidatePassword()"  required></td>
+                <td><input type="checkbox" onclick="showpassword()">Show Password</td>
+        </tr>
+        </table></form>
+                   
+        <p><input type="submit" id="submit" value="LOG IN" ></p>
+        <p id="submit"><a href="CUSTOMER_FORM.html">New to Car Rental? Sign Up Now</a></p>
+                    
+</body>
+
+</html>
