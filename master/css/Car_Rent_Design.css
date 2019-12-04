@@ -1,0 +1,219 @@
+*
+
+nav ul li a
+{
+    float:right;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    background-color: #333333;
+    margin: 0px;
+}
+
+nav ul
+{
+    float: right;
+    background-color: black;
+    position: relative;
+    top: -100px;
+}
+
+nav li 
+{
+    display : inline-block;
+    padding: 10px;
+}
+
+h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+    padding:25px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+#login
+{
+    margin-left: 600px;
+}
+
+#form1
+{
+    margin-left: 500px;
+}
+
+#submit
+{
+    margin-left: 500px;
+}
+
+#customerinfo
+{
+    margin-left: 520px;
+}
+.table1
+{
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+.table2
+{
+    border-collapse: collapse;
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*  random section    */
+.random{
+    padding: 0px 0px;
+}
+/*  listings section  */
+.listings{
+    padding: 100px 0;
+}
+
+.listings ul.properties_list{
+    list-style: none;
+    overflow: hidden;
+}
+
+.listings ul.properties_list li{
+    display: block;
+    width: 340px;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 0 40px 40px 0;
+}
+
+.listings ul.properties_list li img.property_img{
+    width: 100%;
+    height: auto!important;
+    vertical-align: top;
+}
+
+
+.listings ul.properties_list li .price{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 15px;
+    background: #ffffff85;
+    color: #fa0000;
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+.listings ul.properties_list li:nth-child(3n+0){
+    margin-right: 0;
+}
+
+.listings ul li .property_details{
+    width: 298px;
+    padding: 1px 1px 1px 1px;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.listings ul li:hover .property_details{
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.listings ul li .property_details h1{
+    color: #ff0000;
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-size: 16px!important;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 28px;
+}
+
+.listings ul li .property_details h1 a{
+    text-decoration: none;
+    color: #666464;
+}
+
+.listings ul li .property_details h2{
+    color: #9d9d9d;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.listings ul li .property_details .property_size{
+    color: #676767;
+}
+
+.listings .more_listing{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 84px 0 22px 0;
+}
+
+.listings .more_listing_btn{
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 2px solid #bfd9f1;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #afcbe6;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.listings .more_listing_btn:hover{
+    color: #000000;
+    border: 2px solid #000000;    
+}
+ 
+/*  footer  */
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 100);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Arial;
+}
